@@ -8,17 +8,17 @@
 6. emacs: 编辑器(不常用)
 7. ...
 
-> Create a new repository on the command line
+>Create a new repository on the command line
 
-  touch README.md
-
-  git init
-
-  git add README.md
-
-  git commit -m "first commit"
-
-  git remote add origin git@github.com:AndyHelix/HelixConfig.git
-
-  git push -u origin master
-
+>touch README.md
+>
+>git init
+>
+>git add README.md
+>
+>git commit -m "first commit"
+>
+>git remote add origin git@github.com:AndyHelix/HelixConfig.git
+>
+>git push -u origin master
+>
