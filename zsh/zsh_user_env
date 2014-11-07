@@ -1,0 +1,7 @@
+export SAE=$HOME/tmpworld/cloudapp/sae/
+export CONFAW=$HOME/.config/awesome
+export CONFZSH=$HOME/.config/zsh
+
+export blog=/home/andy/Documents/myblog/blognew
+export bpost=/home/andy/Documents/myblog/blognew/source/_posts/
+export CONFVIM=$HOME/.vim

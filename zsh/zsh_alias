@@ -1,0 +1,29 @@
+# 常用命令
+alias chrome="x google-chrome"
+alias chromium="x chromium-browser"
+alias gcc="gcc -W"
+alias leafpad="x leafpad"
+alias off='sudo shutdown -h 1'
+alias q='exit'
+alias sins='sudo apt-get install'
+alias st2='x st2.sh'
+alias supd='sudo apt-get update'
+alias sza='source $HOME/.zshrc'
+alias vza='vim $HOME/.zsh_alias'
+alias xfox='x firefox www.baidu.com'
+alias gpp='g++'
+alias cpvim='. cpvim.sh $1'
+
+# safe
+alias rm='rm -i'
+
+# node
+alias n='n use 0.11.13 --harmony'
+
+#soft
+alias lightta='x $HOME/Softfold/LightTable/LightTable'
+alias eric='x eric4'
+alias eclipse='x /home/andy/Softfold/adt-bundle-linux-x86_64-20140702/eclipse/eclipse'
+alias bracket='x brackets'
+alias emacs='x emacs'
+alias cocosjs='/home/andy/tmpworld/js_all/cocos2djs/cocos2d-js-v3.0-rc1/tools/cocos2d-console/bin/cocos'
