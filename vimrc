@@ -1,6 +1,14 @@
 
 "colorscheme desert
 colorscheme darkblue
+
+noremap <LeftRelease> "+y<LeftRelease>
+
+set cursorline cursorcolumn
+hi CursorLine   cterm=NONE ctermbg=LightGray ctermfg=Black guibg=darkred guifg=white
+hi CursorColumn cterm=NONE ctermbg=LightGray ctermfg=Black guibg=darkred guifg=white
+" nnoremap <Leader>c :set cursorline! cursorcolumn!<CR>
+
 set nu
 set ai
 set smarttab "启动增强tab
@@ -24,6 +32,7 @@ set fencs=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
 if has('mouse')
     set mouse=a
 endif
+set mouse=a
 
 if has("autocmd")
 
@@ -152,6 +161,7 @@ NeoBundle 'vim-scripts/pep8'
 NeoBundle 'vim-scripts/jade.vim'
 " Refer to |:NeoBundle-examples|.
 " Note: You don't set neobundle setting in .gvimrc!
+NeoBundle 'lilydjwg/colorizer'
 
 call neobundle#end()
 
