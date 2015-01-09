@@ -158,7 +158,13 @@ NeoBundle 'mattn/emmet-vim'
 NeoBundle 'kchmck/vim-coffee-script'
 " python
 NeoBundle 'vim-scripts/pep8'
+" elixir
+NeoBundle 'carlosgaldino/elixir-snippets'
+NeoBundle 'elixir-lang/vim-elixir'
+
+" Jade
 NeoBundle 'vim-scripts/jade.vim'
+
 " Refer to |:NeoBundle-examples|.
 " Note: You don't set neobundle setting in .gvimrc!
 NeoBundle 'lilydjwg/colorizer'
